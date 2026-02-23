@@ -89,4 +89,8 @@ async function sendMessage(psid, responseText) {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 22c83e858f9715a583d137c160eb9b83f41b4c78
