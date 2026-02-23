@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 // ====== THAY 2 GIÁ TRỊ NÀY ======
 const VERIFY_TOKEN = "M@Tdaibang88";
 const PAGE_ACCESS_TOKEN = "EAAXxodkRfeYBQxcCeEqMiNonPS4bpB2VphZCTa7WLGKdCdz0ZBz2E7rZADZAzJ1n41XUqyUmLkzOWzuisfwtl9qtlcUNvpMrr7RwLEqVOoj6ZCeA0yv5scYW3u2SoXPA58ZBRICIX68iO3vVqFrkR0NdZAmcHQaBTUELoKeI51HEcVWTFKohjnz8K0pYwojeTTWPXpZA9rqenQZDZD";
-// =================================
+
 
 
 // ====== VERIFY WEBHOOK ======
@@ -89,8 +89,5 @@ async function sendMessage(psid, responseText) {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 22c83e858f9715a583d137c160eb9b83f41b4c78
+
