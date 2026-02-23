@@ -5,6 +5,7 @@ const app = express();
 app.use(bodyParser.json());
 
 const VERIFY_TOKEN = "M@Tdaibang88";
+const PAGE_ACCESS_TOKEN = "EAAXxodkRfeYBQxcCeEqMiNonPS4bpB2VphZCTa7WLGKdCdz0ZBz2E7rZADZAzJ1n41XUqyUmLkzOWzuisfwtl9qtlcUNvpMrr7RwLEqVOoj6ZCeA0yv5scYW3u2SoXPA58ZBRICIX68iO3vVqFrkR0NdZAmcHQaBTUELoKeI51HEcVWTFKohjnz8K0pYwojeTTWPXpZA9rqenQZDZD";
 
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
